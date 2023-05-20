@@ -24,3 +24,20 @@ caminho certo para se tornar um programador mais habilidoso e capaz de lidar
  com projetos complexos de forma eficiente. É importante lembrar de sempre 
  praticar e explorar mais sobre os conceitos da OOP, pois essa é uma área 
  fundamental no desenvolvimento de software.
+ 
+ ## mostrando que onde roda o programa apenas criei um objeto e chamei todos os métodos necessarios
+ ```java
+ public class MainAreas{
+	
+	public static void main(String[] args) {			
+		CalculoAreas obj = new CalculoAreas(0, 0, 0);
+		obj.dadosRecebidos();
+		obj.triangulo();
+		obj.circulo();
+		obj.trapazio();
+		obj.quadrado();
+		obj.retangulo();	
+	}
+
+} 
+```
